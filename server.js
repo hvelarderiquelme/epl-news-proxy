@@ -2,7 +2,7 @@ import express from "express";
 import fetch from "node-fetch";
 import cors from "cors";
 
-const app = expres();
+const app = express();
 app.use(cors());
 
 const PORT = process.env.PORT || 3000;
